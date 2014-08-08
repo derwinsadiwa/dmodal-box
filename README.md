@@ -1,4 +1,4 @@
-dModalBox
+dmodal-box
 =========
 
 DEMO: http://derwinsadiwa.github.io/dModalBox
