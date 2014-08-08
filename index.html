@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Modal Box</title>
+	<link rel="stylesheet" href="assets/css/common.css">
+</head>
+<body>
+	
+	<button type="button" class="click-me-btn" data-target="modalbox1">CLICK ME</button>
+	<button type="button2" class="click-me-btn2" data-target="modalbox2">SHOW CONTENT</button>
+
+	<div class="box-overlay hide"></div>
+	<div class="close-btn hide"><img src="assets/img/close-btn.png" alt="close button"></div>
+
+	<div id="modalbox1" class="whole-box hide">
+		
+		<img src="assets/img/angularjs.jpg" alt="angularjs"/>
+	</div>
+
+	<div id="modalbox2" class="whole-box hide">
+	
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla ante pulvinar elit fringilla tristique. Curabitur sed mauris ipsum. Suspendisse potenti. Nullam at malesuada tortor. Vestibulum iaculis cursus dui in dictum. Proin tincidunt vel massa eget porttitor. Praesent volutpat aliquet tempor. Sed sit amet eleifend justo.
+		Nulla vel pretium elit. Etiam fermentum commodo libero faucibus dapibus. Fusce luctus arcu vel est vehicula, vel viverra turpis viverra. Ut vitae sem vel ligula porta volutpat a imperdiet libero. Integer at enim lacinia, condimentum metus sit amet, convallis tortor. Mauris vel augue ultricies, semper magna non, malesuada purus. Quisque eu quam eu nisi tincidunt facilisis sit amet vitae lorem. Donec at tortor porta, semper ligula volutpat, dapibus metus.</p>
+
+	</div>
+</body>
+
+<script data-main="assets/js/common" src="assets/js/lib/require.js"></script>
+<script>
+	require(['common'], function(){
+		require(['page/home']);
+	});
+</script>
+
+</html>
