@@ -10,7 +10,7 @@ If you find a bug, please report here at the [issues section](https://github.com
 
 ##Acknowledgement
 
-**dmodal-box** © 2014, Derwin Sadiwa. Released under the [MIT License](http://opensource.org/licenses/mit-license.php).<br>
+**dmodal-box** © 2014+, Derwin Sadiwa. Released under the [MIT License](http://opensource.org/licenses/mit-license.php).<br>
 
 Authored and maintained by Derwin Sadiwa.
 
