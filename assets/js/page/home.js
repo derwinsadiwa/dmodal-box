@@ -62,12 +62,11 @@ define(['jquery', 'greensock'], function($){
 					'left': $(target_element).position().left+($(target_element).width()+20),
 					'top': $(target_element).position().top
 				});
-
 			}
 
 			$('.close-btn').on({
 				click: function(){
-					$(target_element+',.box-overlay, .close-btn').fadeOut('fast');
+					closeModalBox();
 				},
 				mouseover: function (event) {
 					TweenMax.to($(this), 0.7, { rotation:90, ease:Quint.easeOut, force3D:true });				
@@ -75,6 +74,14 @@ define(['jquery', 'greensock'], function($){
 				mouseout: function (event) {
 					TweenMax.to($(this), 0, { rotation:0, force3D:true });	
 				}
+			})
+
+			var closeModalBox = function(){
+				$(target_element+',.box-overlay, .close-btn').fadeOut('fast');
+			}
+
+			$('.box-overlay').on('click', function(){
+				closeModalBox();
 			})
 
 			resizeWindow(target_element);
@@ -86,12 +93,12 @@ define(['jquery', 'greensock'], function($){
 
 }( jQuery ));
 
-$('.click-me-btn').dModalBox({
+$('#image_btn').dModalBox({
 	width: 500,
 	height: 500
 });
 
-$('.click-me-btn2').dModalBox({
+$('#content_btn').dModalBox({
 	width: 300,
 	height: 100
 });

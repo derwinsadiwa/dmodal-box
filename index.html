@@ -3,25 +3,31 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Modal Box</title>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="assets/css/common.css">
 </head>
 <body>
-	
-	<button type="button" class="click-me-btn" data-target="modalbox1">CLICK ME</button>
-	<button type="button2" class="click-me-btn2" data-target="modalbox2">SHOW CONTENT</button>
+	<a href="https://github.com/derwinsadiwa"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+	<div id="main_container">
+		<h1>dmodal-box</h1>
+		<button id="image_btn" type="button" class="click_btn" data-target="modalbox1">SHOW IMAGE</button>
+		<button id="content_btn" type="button2" class="click_btn" data-target="modalbox2">SHOW CONTENT</button>
+		<div id="github-logo">
+			<img src="assets/img/github-social-coding.jpg">
+		</div>	
+		<p id="github_account"><a href="https://github.com/derwinsadiwa">github.com/derwinsadiwa</a></p>
+	</div>
 
 	<div class="box-overlay hide"></div>
 	<div class="close-btn hide"><img src="assets/img/close-btn.png" alt="close button"></div>
 
 	<div id="modalbox1" class="whole-box hide">
-		
 		<img src="assets/img/angularjs.jpg" alt="angularjs"/>
 	</div>
 
 	<div id="modalbox2" class="whole-box hide">
 	
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla ante pulvinar elit fringilla tristique. Curabitur sed mauris ipsum. Suspendisse potenti. Nullam at malesuada tortor. Vestibulum iaculis cursus dui in dictum. Proin tincidunt vel massa eget porttitor. Praesent volutpat aliquet tempor. Sed sit amet eleifend justo.
-		Nulla vel pretium elit. Etiam fermentum commodo libero faucibus dapibus. Fusce luctus arcu vel est vehicula, vel viverra turpis viverra. Ut vitae sem vel ligula porta volutpat a imperdiet libero. Integer at enim lacinia, condimentum metus sit amet, convallis tortor. Mauris vel augue ultricies, semper magna non, malesuada purus. Quisque eu quam eu nisi tincidunt facilisis sit amet vitae lorem. Donec at tortor porta, semper ligula volutpat, dapibus metus.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla ante pulvinar elit fringilla tristique. Curabitur sed mauris ipsum. Suspendisse potenti</p>
 
 	</div>
 </body>
