@@ -107,10 +107,12 @@ body {
   background: #000;
   width: 100%;
   height: 100%;
-  position: fixed;
+  position: absolute;
   opacity: 0.9;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
   filter: alpha(opacity=90);
+  top: 0;
+  left: 0;
 }
 .close-btn {
   cursor: pointer;

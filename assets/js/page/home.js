@@ -58,6 +58,10 @@ define(['jquery', 'greensock'], function($){
 					'width': config.width+'px',
 					'height': config.height+'px'
 				});
+				$('.close-btn').css({
+					'left': $(target_element).position().left+($(target_element).width()+20),
+					'top': $(target_element).position().top
+				});
 
 			}
 
