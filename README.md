@@ -1,7 +1,7 @@
 dmodal-box
 =========
 
-This plugin is just a beta, will update this from time to time, expect some bugs and errors!
+This plugin is just a beta, will update this from time to time, expect some bugs and errors!<br>
 DEMO: http://derwinsadiwa.github.io/dmodal-box
 
 Usage
