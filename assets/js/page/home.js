@@ -93,14 +93,4 @@ define(['jquery', 'greensock'], function($){
 
 }( jQuery ));
 
-$('#image_btn').dModalBox({
-	width: 500,
-	height: 500
-});
-
-$('#content_btn').dModalBox({
-	width: 300,
-	height: 100
-});
-
 });
